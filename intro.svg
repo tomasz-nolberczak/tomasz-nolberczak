@@ -71,13 +71,12 @@
 					margin: 0;
 					width: 100%;
 					height: 500px;
-					<!-- background: linear-gradient(270deg, #2d333b, #22272e);
-					background-size: 400% 400%; -->
-
+					color: white;
+					
 					-webkit-animation: Gradient 11s ease infinite;
 					-moz-animation: Gradient 11s ease infinite;
 					animation: Gradient 11s ease infinite;
-					color: white;
+					color: black;
 					padding: 48px 24px;
 					text-align: left;
 					font-weight: 100;
