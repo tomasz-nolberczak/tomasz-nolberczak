@@ -120,15 +120,15 @@
 				<div id="technologies">
 					<div class="technology">
 						<!-- TypeScript -->
-						<img src="raw.githubusercontent.com/tomasz-nolberczak/tomasz-nolberczak/main/icons/typescript.svg" alt="TypeScript"/>
+						<img src="https://raw.githubusercontent.com/tomasz-nolberczak/tomasz-nolberczak/main/icons/typescript.svg" alt="TypeScript"/>
 					</div>
 					<div class="technology">
 						<!-- React -->
-						<img src="raw.githubusercontent.com/tomasz-nolberczak/tomasz-nolberczak/main/icons/react.svg" alt="React"/>
+						<img src="https://raw.githubusercontent.com/tomasz-nolberczak/tomasz-nolberczak/main/icons/react.svg" alt="React"/>
 					</div>
 					<div class="technology">
 						<!-- Tailwind -->
-						<img src="raw.githubusercontent.com/tomasz-nolberczak/tomasz-nolberczak/main/icons/tailwind.svg" alt="Tailwind"/>
+						<img src="https://raw.githubusercontent.com/tomasz-nolberczak/tomasz-nolberczak/main/icons/tailwind.svg" alt="Tailwind"/>
 					</div>
 				</div>
 			</div>
