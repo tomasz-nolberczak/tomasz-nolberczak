@@ -77,7 +77,7 @@
 					-webkit-animation: Gradient 11s ease infinite;
 					-moz-animation: Gradient 11s ease infinite;
 					animation: Gradient 11s ease infinite;
-					color: black;
+					color: white;
 					padding: 48px 24px;
 					text-align: left;
 					font-weight: 100;
