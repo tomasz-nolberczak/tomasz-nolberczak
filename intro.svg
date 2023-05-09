@@ -1,4 +1,4 @@
-<svg fill="none" viewBox="0 0 800 480" width="800" height="480" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 800 350" width="800" height="350" xmlns="http://www.w3.org/2000/svg">
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
@@ -13,16 +13,20 @@
 					box-sizing: border-box;
 				}
 
-				@keyframes gradient {
-					0% {
-						background-position: 0% 50%;
-					}
-					50% {
-						background-position: 100% 50%;
-					}
-					100% {
-						background-position: 0% 50%;
-					}
+				@-webkit-keyframes Gradient {
+					0%{background-position:0% 50%}
+					50%{background-position:100% 50%}
+					100%{background-position:0% 50%}
+				}
+				@-moz-keyframes Gradient {
+					0%{background-position:0% 50%}
+					50%{background-position:100% 50%}
+					100%{background-position:0% 50%}
+				}
+				@keyframes Gradient {
+					0%{background-position:0% 50%}
+					50%{background-position:100% 50%}
+					100%{background-position:0% 50%}
 				}
 
 				#container {
@@ -41,9 +45,12 @@
 					margin: 0;
 					width: 100%;
 					height: 1200px;
-					background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+					background: linear-gradient(270deg, #2d333b, #22272e);
 					background-size: 400% 400%;
-					animation: gradient 15s ease infinite;
+
+					-webkit-animation: Gradient 11s ease infinite;
+					-moz-animation: Gradient 11s ease infinite;
+					animation: Gradient 11s ease infinite;
 					color: white;
 					padding: 48px 24px;
 					text-align: left;
@@ -92,48 +99,12 @@
 				.external-link:hover {
 					background: rgba(0, 0, 0, 0.4);
 				}
-
-				#technologies {
-					display: flex;
-					padding: 0px;
-				}
-
-				#technologies div {
-					width: 48px;
-					height: 48px;
-					margin-right: 8px;
-					padding: 8px;
-					border-radius: 4px;
-					background: rgba(0, 0, 0, 0.8);
-				}
-
-				#technologies div img {
-					max-width: 100%;
-				}
 			</style>
 			<div id="container">
 				<h1>Hi, I'm Tomasz 👋</h1>
-				<p>I'm a professional developer with <strong>9+ years</strong> of experience from Łódź. I am old enough to remember playing with jQuery 😇</p>
-
-				<p>Widely interested in web development. Loving to attend the local JS/PHP/Rails events! Just say hi if you see me there - would love to discuss why you should pick Remix in your next project!</p>
-
-				<p>Feel free to contact me via <a class="external-link" href="mailto:tomasz.nolberczak+github.profile@gmail.com">email</a> or <a href="https://www.linkedin.com/in/tomasz-nolberczak/" class="external-link">LinkedIn</a></p>
-
-				<p>My current stack is:</p>
-				<div id="technologies">
-					<div class="technology">
-						<!-- TypeScript -->
-						<img src="https://raw.githubusercontent.com/tomasz-nolberczak/tomasz-nolberczak/main/icons/typescript.svg" alt="TypeScript"/>
-					</div>
-					<div class="technology">
-						<!-- React -->
-						<img src="https://raw.githubusercontent.com/tomasz-nolberczak/tomasz-nolberczak/main/icons/react.svg" alt="React"/>
-					</div>
-					<div class="technology">
-						<!-- Tailwind -->
-						<img src="https://raw.githubusercontent.com/tomasz-nolberczak/tomasz-nolberczak/main/icons/tailwind.svg" alt="Tailwind"/>
-					</div>
-				</div>
+				<p>I'm a professional developer with <strong>9+ years</strong> of experience. Currently located in Łódź. </p>
+				<p>I'm old enough to remember playing with jQuery and floats in CSS 😇</p>
+				<p>Heavily interested in web development. Loving to attend the local JS/PHP/Rails events! Just say hi if you see me there - would love to discuss why you should pick Remix in your next project!</p>
 			</div>
 		</div>
 	</foreignObject>
