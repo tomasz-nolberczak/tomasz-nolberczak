@@ -112,7 +112,7 @@
 				<h1>Hi, I'm Tomasz 👋</h1>
 				<p>I'm a professional developer with <strong>9+ years</strong> of experience from Łódź. I am old enough to remember playing with jQuery 😇</p>
 
-				<p>Widely interested in web development. Loving to attend the local JS/PHP/Rails events! Just say hi if you see me there - would love to discuss who you should start using </p>
+				<p>Widely interested in web development. Loving to attend the local JS/PHP/Rails events! Just say hi if you see me there - would love to discuss why you should pick Remix in your next project!</p>
 
 				<p>Feel free to contact me via <a class="external-link" href="mailto:tomasz.nolberczak+github.profile@gmail.com">email</a> or <a href="https://www.linkedin.com/in/tomasz-nolberczak/" class="external-link">LinkedIn</a></p>
 
@@ -120,15 +120,15 @@
 				<div id="technologies">
 					<div class="technology">
 						<!-- TypeScript -->
-						<img src="./icons/typescript.svg" alt="TypeScript"/>
+						<img src="https://github.com/tomasz-nolberczak/tomasz-nolberczak/blob/main/icons/typescript.svg" alt="TypeScript"/>
 					</div>
 					<div class="technology">
 						<!-- React -->
-						<img src="./icons/react.svg" alt="React"/>
+						<img src="https://github.com/tomasz-nolberczak/tomasz-nolberczak/blob/main/icons/react.svg" alt="React"/>
 					</div>
 					<div class="technology">
 						<!-- Tailwind -->
-						<img src="./icons/tailwind.svg" alt="Tailwind"/>
+						<img src="https://github.com/tomasz-nolberczak/tomasz-nolberczak/blob/main/icons/tailwind.svg" alt="Tailwind"/>
 					</div>
 				</div>
 			</div>
