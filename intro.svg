@@ -98,9 +98,31 @@
 					animation: textShine 5s ease-in-out infinite alternate;
 				}
 
+				.frame {
+					opacity: 0;
+					animation: FadeIn 2s ease;
+					-webkit-animation-fill-mode: forwards; 
+					animation-fill-mode: forwards;
+				}
+
+				.frame-1 {
+					// no delay
+				}
+				.frame-2 {
+					animation-delay: 0.5s;
+				}
+				.frame-3 {
+					animation-delay: 1s;
+				}
+				.frame-4 {
+					animation-delay: 1.5s;
+				}
+				.frame-5 {
+					animation-delay: 2s;
+				}
+
 				#technologies {
 					padding: 10px;
-					
 				}
 
 				h1, p, a {
@@ -147,55 +169,35 @@
 					position: relative;
 					transition: background 0.2s ease;
 					overflow: hidden;
-					
+				
 				}
 
 				ul li.react {
-					animation: FadeIn 2s ease;
-					-webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
-					animation-fill-mode: forwards;
+					animation-delay: 2s;
 				}
 
 				ul li.next {
-					animation: FadeIn 2s ease;
-					animation-delay: 0.5s;
-					-webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
-					animation-fill-mode: forwards;
+					animation-delay: 2.5s;
 				}
 
 				ul li.remix {
-					animation: FadeIn 2s ease;
-					animation-delay: 1s;
-					-webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
-					animation-fill-mode: forwards;
+					animation-delay: 3s;
 				}
 
 				ul li.tailwind {
-					animation: FadeIn 2s ease;
-					animation-delay: 1.5s;
-					-webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
-					animation-fill-mode: forwards;
+					animation-delay: 3.5s;
 				}
 
 				ul li.express {
-					animation: FadeIn 2s ease;
-					animation-delay: 2s;
-					-webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
-					animation-fill-mode: forwards;
+					animation-delay: 4s;
 				}
 
 				ul li.postgres {
-					animation: FadeIn 2s ease;
-					animation-delay: 2.5s;
-					-webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
-					animation-fill-mode: forwards;
+					animation-delay: 4.5s;
 				}
 
 				ul li.docker {
-					animation: FadeIn 2s ease;
-					animation-delay: 3s;
-					-webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
-					animation-fill-mode: forwards;
+					animation-delay: 5s;
 				}
 
 
@@ -223,21 +225,35 @@
 				}
 			</style>
 			<div id="container">
-				<h1><span class="text-shine">Hi, I'm Tomasz</span> <div class="wave">👋</div></h1>
-				<p>I'm a professional developer with <strong>9+ years</strong> of experience. Currently located in Łódź. </p>
-				<p>I'm old enough to remember playing with jQuery and floats in CSS 😇</p>
-				<p>Heavily interested in web development. Loving to attend the local JS/PHP/Rails events! Just say hi if you see me there - would love to discuss why you should pick Remix in your next project!</p>
+				<div class="frame frame-1">
+					<h1><span class="text-shine">Hi, I'm Tomasz</span> <div class="wave">👋</div></h1>
+				</div>
+				<div class="frame frame-2">
+					<p>I'm a professional developer with <strong>9+ years</strong> of experience. Currently located in Łódź. </p>
+				</div>
+				<div class="frame frame-3">
+					<p>I'm old enough to remember playing with jQuery and floats in CSS 😇</p>
+				</div>
+				<div class="frame frame-4">
+					<p>Heavily interested in web development. Loving to attend the local JS/PHP/Rails events! Just say hi if you see me there - would love to discuss why you should pick Remix in your next project!</p>
+				</div>
+				<div class="frame frame-5">
+					<p>Main technologies and tools I use on daily basis:</p>
+					<ul>
+						<li class="frame react">React</li>
+						<li class="frame next">Next.js</li>
+						<li class="frame remix">Remix</li>
+						<li class="frame tailwind">Tailwind</li>
+						<li class="frame express">Express</li>
+						<li class="frame postgres">PostgreSQL</li>
+						<li class="frame docker">Docker</li>
+					</ul>
+				</div>
+				
+				
+				
 
-				<p>Main technologies and tools I use on daily basis:</p>
-				<ul>
-					<li class="react">React</li>
-					<li class="next">Next.js</li>
-					<li class="remix">Remix</li>
-					<li class="tailwind">Tailwind</li>
-					<li class="express">Express</li>
-					<li class="postgres">PostgreSQL</li>
-					<li class="docker">Docker</li>
-				</ul>
+				
 			</div>
 		</div>
 	</foreignObject>
