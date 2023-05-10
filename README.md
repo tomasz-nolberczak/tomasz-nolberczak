@@ -1,1 +1,1 @@
-<img src="./intro.svg" alt="Yep, this is just a single SVG file!"/>
+<img src="./intro.svg" alt="Yep, this is just a single SVG file!" height="480" width="800"/>

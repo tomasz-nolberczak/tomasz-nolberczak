@@ -109,21 +109,21 @@
 				.frame-1 {
 					// no delay
 				}
+				
 				.frame-2 {
 					animation-delay: 0.5s;
 				}
+
 				.frame-3 {
 					animation-delay: 1s;
 				}
+
 				.frame-4 {
 					animation-delay: 1.5s;
 				}
+				
 				.frame-5 {
 					animation-delay: 2s;
-				}
-
-				#technologies {
-					padding: 10px;
 				}
 
 				h1, p, a {
@@ -241,7 +241,7 @@
 					<h1><span class="shine text-shine">Hi, I'm Tomasz</span> <div class="wave">👋</div></h1>
 				</div>
 				<div class="frame frame-2">
-					<p>I'm a professional developer with <strong>9+ years</strong> of experience. Currently located in Łódź. </p>
+					<p>I'm a professional developer with <strong>9+ years</strong> of experience. During my career, I've been working with various teams - from small to big ones. Currently located in Łódź. </p>
 				</div>
 				<div class="frame frame-3">
 					<p>I'm old enough to remember playing with jQuery and floats in CSS 😇. <br/>Since that time, I shipped 🛳️ many projects, some of them you've seen for sure across the Web!</p>
@@ -264,11 +264,6 @@
 						</ul>
 					</div>
 				</div>
-				
-				
-				
-
-				
 			</div>
 		</div>
 	</foreignObject>
