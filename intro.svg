@@ -1,5 +1,5 @@
-<svg fill="none" viewBox="0 0 800 480" width="800" height="480" xmlns="http://www.w3.org/2000/svg">
-	<foreignObject width="100%" height="100%">
+<svg fill="none" viewBox="0 0 800 480" width="800" height="480" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="optimizeLegibility">
+	<foreignObject width="100%" height="100%" x="0" y="0">
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
 			
@@ -29,16 +29,6 @@
 					100% { transform: rotate( 0.0deg) }
 				}
 
-				@-webkit-keyframes Gradient {
-					0%{background-position:0% 50%}
-					50%{background-position:100% 50%}
-					100%{background-position:0% 50%}
-				}
-				@-moz-keyframes Gradient {
-					0%{background-position:0% 50%}
-					50%{background-position:100% 50%}
-					100%{background-position:0% 50%}
-				}
 				@keyframes Gradient {
 					0%{background-position:0% 50%}
 					50%{background-position:100% 50%}
@@ -70,9 +60,7 @@
 					margin: 0;
 					width: 100%;
 					height: 500px;
-					background: #22272e;;
-					-webkit-animation: Gradient 11s ease infinite;
-					-moz-animation: Gradient 11s ease infinite;
+					background: #22272e;
 					animation: Gradient 11s ease infinite;
 					color: #fff;
 					padding: 48px 24px;
@@ -88,7 +76,7 @@
 						#0190cd 70%,
 						#764ada 80%
 					);
-					background-size: 500% auto;
+					background-size: 200% auto;
 					animation: textShine 5s ease-in-out infinite alternate;
 				}
 
@@ -143,7 +131,7 @@
 					
 					font-size: 16px;
 					line-height: 1.5;
-					text-shadow: 0 1px 0 #efefef;
+					color: #fff;
 					margin-bottom: 24px;
 				}
 
@@ -210,7 +198,7 @@
 					background: rgba(0, 0, 0, 0.8);
 				}
 
-				<!-- ul li:after {
+				/* ul li:after {
 					content: '';
 					display: block;
 					width: 4px;
@@ -219,7 +207,7 @@
 					top: 0;
 					left: 0;
 					background: red;
-				} -->
+				} */
 
 				.wave {
 					animation-name: WaveAnimation; 
@@ -232,7 +220,7 @@
 				.just-a-bar {
 					width: 160px;
 					height: 3px;
-					<!-- opacity: 0.5; -->
+					/* opacity: 0.5; */
 					margin-bottom: 24px;
 				}
 			</style>
@@ -241,24 +229,27 @@
 					<h1><span class="shine text-shine">Hi, I'm Tomasz</span> <div class="wave">👋</div></h1>
 				</div>
 				<div class="frame frame-2">
-					<p>I'm a professional developer with <strong>9+ years</strong> of experience. During my career, I've been working with various teams - from small to big ones. Currently located in Łódź. </p>
+					<p>I'm a professional full-stack developer with <strong>9+ years</strong> of experience.<br>
+				Throughout my career, I've worked with diverse teams — from startups to large companies. Currently based in Łódź, Poland.</p>
 				</div>
 				<div class="frame frame-3">
-					<p>I'm old enough to remember playing with jQuery and floats in CSS 😇. <br/>Since that time, I shipped 🛳️ many projects, some of them you've seen for sure across the Web!</p>
+					<p>I remember the early days of web development playing with jQuery and CSS floats 😇.<br>
+				Since then, I've shipped many projects that you’ve probably encountered across the web! 🛳️</p>
 				</div>
 				<div class="frame frame-4">
-					<p>Heavily interested in web development. Loving to attend the local JS/PHP/Rails events! Just say hi if you see me there - would love to discuss why you should pick Remix in your next project, or just how I can help you with your business.</p>
+					<p>I'm passionate about web development and regularly attend local JavaScript, PHP, and Rails meetups.<br>
+				If you see me there, just say hi! I'd love to chat about why Remix might be a great fit for your next project or how I can help your business grow.</p>
 				</div>
 				<div class="frame frame-5">
 					<div class="sm">
 						<div class="just-a-bar shine"></div>
-						<p>Main technologies and tools I use on daily basis:</p>
+						<p>Main technologies and tools I use daily:</p>
 						<ul>
 							<li class="frame react">React</li>
 							<li class="frame next">Next.js</li>
 							<li class="frame remix">Remix</li>
-							<li class="frame tailwind">Tailwind</li>
-							<li class="frame express">Express</li>
+							<li class="frame tailwind">Tailwind CSS</li>
+							<li class="frame express">Express.js</li>
 							<li class="frame postgres">PostgreSQL</li>
 							<li class="frame docker">Docker</li>
 						</ul>
