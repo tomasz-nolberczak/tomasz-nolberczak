@@ -1,6 +1,12 @@
-<img src="./intro.svg" alt="Tomasz Nolberczak — Full-stack developer" height="420" width="800"/>
+# Hi, I'm Tomasz 👋
 
-<br/>
+Full-stack developer and team lead with **12+ years** of experience. I build end-to-end — React, NextJS, Remix frontends, Node.js backends. I'm working remotely, and that's the way I believe work should be done. I work in that way since 2018.
+
+Shipped production products for real audiences — Norwegian media platforms, Polish e-commerce, health tech. The kind of work you can actually find across the web.
+
+`TypeScript` `React` `Next.js` `Remix` `Node.js` `Tailwind` `PostgreSQL` `Docker`
+
+---
 
 **Few projects I've been part of:**
 
