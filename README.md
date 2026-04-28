@@ -1,6 +1,6 @@
 # Hi, I'm Tomasz 👋
 
-Full-stack developer and team lead with **12+ years** of experience. I build end-to-end — React, NextJS, Remix frontends, Node.js backends. I'm working remotely, and that's the way I believe work should be done. I work in that way since 2018.
+Full-stack developer and team lead with **12+ years** of experience. I build end-to-end — React, NextJS frontends and Node.js backends. Also, I'm a huge fan of Remix. I'm working remotely, and that's the way I believe work should be done. I work in that way since 2018.
 
 Shipped production products for real audiences — Norwegian media platforms, Polish e-commerce, health tech. The kind of work you can actually find across the web.
 
